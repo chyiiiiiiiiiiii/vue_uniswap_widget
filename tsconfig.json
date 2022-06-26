@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "es2020",
+		"strict": false,
+		"importHelpers": true,
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"baseUrl": ".",
+		"declaration": true,
+		"declarationDir": "lib",
+		"paths": {
+			"@/*": ["src/*"]
+		},
+		"rootDir": "./src" /* Specify the root folder within your source files. */,
+		"outDir": "./dist" /* Specify an output folder for all emitted files. */,
+		"lib": ["es2020", "dom", "dom.iterable", "scripthost"]
+	},
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.tsx",
+		"src/**/*.vue",
+		"tests/**/*.ts",
+		"tests/**/*.tsx",
+		"src/index.ts",
+		"src/main.js"
+	],
+	"exclude": ["node_modules"]
+}

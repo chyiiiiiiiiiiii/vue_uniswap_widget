@@ -1,0 +1,35 @@
+{
+  "name": "uniswap-vue",
+  "version": "1.0.0",
+  "description": "Vue with uniswap widget.",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "scripts": {
+    "start": "vue-cli-service serve src/main.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.1",
+    "uniswap-dapp-integration-shared": "^1.0.3",
+    "uniswap-vue": "^1.0.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/compiler-sfc": "^3.0.11",
+    "@vue/test-utils": "^2.0.0-0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "postcss": "^8.1.9",
+    "prettier": "^1.19.1",
+    "ts-jest": "^26.5.4",
+    "typescript": "~3.9.3",
+    "vue": "^3.0.0"
+  }
+}
